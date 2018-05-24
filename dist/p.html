@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="bootstrap.css"/>
+<style>
+  form
+  {
+    background-color:rgb(243, 247, 243);
+    border-style: groove;
+    
+    padding: 10px;
+   /*margin-left :600px;
+    margin-top :100px;
+    margin-right :580px;
+    margin-bottom :200px; */
+  }
+  .r1
+  {
+    padding: 30px;
+    /*margin-bottom :70px;*/
+  }
+
+  .r2
+  {
+    color: white;
+    width: 262px;
+    height: 30px;
+    background-color: royalblue;
+    border-style: hidden;
+    border-radius: 2px;
+    
+  }
+
+  .r2:hover {
+    background-color:rgb(96, 96, 167);
+    color: black;
+  }
+
+  input[type=text],input[type=password]{
+    
+    background-color: white;
+    padding-left: 20px;
+    border: 1px solid green;
+    border-radius: 4px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<center>
+<div class="container">
+  <div class=row>
+    <div class="col- mx-auto">
+
+ <form method="Post" >
+  
+
+  <label style="float: left;font-size: 20px" >Login to your account</label><br><br>
+  <label for="uname" style="float: left;"><b>Username</b></label><br>
+  <input style="float: left;padding: 4px;width: 250px;height: 25px;" Type="text" name="uname" placeholder="Enter Username" required>
+  <br><br><br>
+  <label for="psw" style="float: left;"><b>Password</b></label><br>
+  <input style="float: left;padding: 4px;width: 250px;height: 25px;" Type="password" name="psw" placeholder="Enter Password" required>
+  <br><br><br>
+  <input style="float: left;" type="checkbox" name="rem"><label style="float: left;">Remember me</label><br><br><br>
+  <button class="r2" style="float: left; " Type="submit"><a href="./gallery.html">Login</a></button>
+
+Don't have a account? <a href="./signup.html">Signup</a>
+</form>
+</div>
+</div>
+</div>
+</center>
+</body>
+</html>
